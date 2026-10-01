@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
+df_teeth = pd.read_csv('mammal_teeth.csv')
 # TODO: load the dataset as pandas dataframe
 
 plt.figure(figsize=(5, 10)) # set figure size
